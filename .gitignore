@@ -3,27 +3,88 @@
 
 # User-specific stuff:
 .idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 
 # Gradle:
 .idea/**/gradle.xml
 .idea/**/libraries
 
-#Spring boot
+# CMake
+cmake-build-debug/
+
+# Mongo Explorer plugin:
+.idea/**/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+
 *#
-
-.idea/vcs.xml
-.gradle/
-.idea/.name
-.idea/compiler.xml
-.idea/copyright/
-.idea/misc.xml
-.idea/modules.xml
-.idea/modules/
-build.gradle
-build/
-gradle/
-gradlew
-gradlew.bat
-settings.gradle
-
+*.iml
+*.ipr
+*.jar
+*.sw?
+*~
+.#*
+.*.md.html
+.DS_Store
+.classpath
+.factorypath
+.gradle
+.idea
+.metadata
+.project
+.recommenders
+.settings
+.springBeans
+/build
+/code
+MANIFEST.MF
+_site/
+activemq-data
+bin
+build
+build.log
+dependency-reduced-pom.xml
+dump.rdb
+interpolated*.xml
+lib/
+manifest.yml
+overridedb.*
+settings.xml
+target
+transaction-logs
+.flattened-pom.xml
+secrets.yml
+src/main/resources/
+src/test/
